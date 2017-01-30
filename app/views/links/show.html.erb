@@ -29,7 +29,7 @@
 </div>
 
 <h4 class="comments_title">
-  <%= @link.comments.count %> Comments
+  <%= pluralize(@link.comments.count, "Comment") %>
 </h4>
 
 <div id="comments">
